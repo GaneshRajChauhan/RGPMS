@@ -1,0 +1,31 @@
+2018-08-29T16:18:15.1694595+05:45 0HLGDJB2CPOPF:00000003 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-08-29T16:18:15.2252569+05:45 0HLGDJB2CPOPF:00000003 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-08-29T16:18:15.2257649+05:45 0HLGDJB2CPOPF:00000003 [INF] The token request was successfully validated. (d7e51e65)
+2018-08-29T16:18:15.2416906+05:45 0HLGDJB2CPOPF:00000003 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-08-29T16:18:43.2001862+05:45 0HLGDJB2CPOPF:00000006 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-08-29T16:18:43.2004857+05:45 0HLGDJB2CPOPF:00000006 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-08-29T16:18:43.2005417+05:45 0HLGDJB2CPOPF:00000006 [INF] The token request was successfully validated. (d7e51e65)
+2018-08-29T16:18:43.2006715+05:45 0HLGDJB2CPOPF:00000006 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-08-29T16:18:43.5325756+05:45 0HLGDJB2CPOPF:00000006 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "2b3ab4ff-6e0f-46f3-9edc-ebfff07867e5". (b5fe4ad7)
+2018-08-29T16:18:43.5651693+05:45 0HLGDJB2CPOPF:00000006 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-08-29T16:18:43.5653773+05:45 0HLGDJB2CPOPF:00000006 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-08-29T16:18:43.5654342+05:45 0HLGDJB2CPOPF:00000006 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-08-29T16:18:43.5654937+05:45 0HLGDJB2CPOPF:00000006 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-08-29T16:18:43.6991688+05:45 0HLGDJB2CPOPF:00000006 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-08-29T16:18:43.7236977+05:45 0HLGDJB2CPOPF:00000006 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
